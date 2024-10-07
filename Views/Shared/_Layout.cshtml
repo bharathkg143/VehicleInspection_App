@@ -1,0 +1,84 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/VIR_WebApp.styles.css" asp-append-version="true" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Google Sans Regular", sans-serif;
+        }
+
+        header {
+            background: #FF0000;
+            color: #fefefe;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .nav-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+            .nav-bar a {
+                color: #fefefe;
+                text-decoration: none;
+            }
+
+        @@media screen and (max-width: 768px) {
+            .logo {
+                font-size: 20px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header style="border:solid black 3px">
+        <div class="logo">INDUS MOTORS</div>
+        <nav class="nav-bar">
+            <i class="bi bi-telephone-outbound" style="font-size: 20px;margin-top:5px;"></i>
+            <div style="margin-right:8px">
+                <div class="row">
+                    <a href="tel:+919847280808"><b>+91 9847280808</b></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <partial name="_NotificationPartial" />
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            max-width: 350px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #FF0000;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #FF0000;
+            color: #ffffff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .btn:hover {
+                background-color: #e69a00;
+            }
+    </style>
+</head>
+<body>
+    <div class="container" style="margin-top:230px;">
+        <h1>Thank You!</h1>
+        <p>Your vehicle inspection report data have been uploaded successfully.</p>
+        <p>You can now close this page.</p>
+        <button class="btn shadow" onclick="window.close()">Close</button>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VIR_WebApp
+build_property.RootNamespace = VIR_WebApp
+build_property.ProjectDir = C:\VehicleInspectionApplication\VIR_WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\VehicleInspectionApplication\VIR_WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Home/EnterOTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbnRlck9UUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Home/PhoneNumbers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaG9uZU51bWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Home/VehicleInspection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZWhpY2xlSW5zcGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Shared/_NotificationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Shared/_UploadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VcGxvYWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadChassisNumberEmbossed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZENoYXNzaXNOdW1iZXJFbWJvc3NlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadedDocsPreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZGVkRG9jc1ByZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadFront90.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZEZyb250OTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadFrontLeft45.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZEZyb250TGVmdDQ1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadFrontRight45.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZEZyb250UmlnaHQ0NS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadLeftSide90.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZExlZnRTaWRlOTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadOdoMeterReading.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZE9kb01ldGVyUmVhZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadOpenBonnet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZE9wZW5Cb25uZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadOpenDickey.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZE9wZW5EaWNrZXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadRear90.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFJlYXI5MC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadRearLeft45.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFJlYXJMZWZ0NDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadRearRight45.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFJlYXJSaWdodDQ1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadRegCertiCopyBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFJlZ0NlcnRpQ29weUJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadRegCertiCopyFront.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFJlZ0NlcnRpQ29weUZyb250LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadRightSide90.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFJpZ2h0U2lkZTkwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Upload/UploadUnderBodyFromFrontSide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZFVuZGVyQm9keUZyb21Gcm9udFNpZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/VehicleInspectionApplication/VIR_WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4ko06m6n18

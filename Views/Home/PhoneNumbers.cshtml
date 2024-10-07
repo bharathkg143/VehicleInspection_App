@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Phone Number";
+}
+<style>
+
+    .container {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+        .container h2 {
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .btnNext {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .btnNext {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btnNext:hover {
+            background-color: #0056b3;
+        }
+
+    @@media (min-width: 768px) {
+        .container {
+            width: 70%;
+        }
+    }
+
+    .form-check-input {
+        width: 20px;
+        height: 20px;
+    }
+
+</style>
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="row">
+            <h4 style="text-align:center;">
+                <b>Please select Mobile Number for OTP</b>
+            </h4>
+        </div>
+        <div class="col-md-6 mt-3">
+            <div class="d-flex flex-column align-items-center" style="margin-left:70px">
+                @* @foreach (var input in ViewBag.PhoneNumbers)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input shadow-sm" type="checkbox" id="ckbox1">
+                        <label class="form-check-label" style="font-size: 20px; color:grey; width: 200px;margin-left: 10px;" for="checkbox1">@input</label>
+                    </div>
+                } *@
+                @foreach (var input in ViewBag.PhoneNumbers)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input shadow-sm" type="checkbox" id="ckbox1">
+                        <input type="hidden" value="@input.Original" class="original-number">
+                        <label class="form-check-label" style="font-size: 20px; color:grey; width: 200px;margin-left: 10px;" for="checkbox1">@input.Masked</label>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-6 text-center">
+            <button id="btnGetOtp" class="btn btn-primary shadow w-100"><b>GET OTP</b></button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.form-check-input').click(function () {
+                $(this).closest('.d-flex').find('.form-check-input').not(this).prop('checked', false);
+            });
+
+            $('#btnGetOtp').click(function () {
+                // var selectedPhoneNum = $('.form-check-input:checked').siblings('label').text();
+                var selectedPhoneNum = $('.form-check-input:checked').siblings('.original-number').val();
+
+                if (selectedPhoneNum == "" || selectedPhoneNum == null) {
+                    toastr.options.positionClass = 'toast-bottom-right';
+                    toastr.error("Please select number to send OTP..!");
+                }
+                else {
+                    $('#btnGetOtp').prop('disabled', true); 
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("SendOTP", "Home")",
+                        data: { phoneNumber: selectedPhoneNum },
+                        dataType: "json",
+                        success: function (response) {
+                            if (response.success == true) {
+                                window.location.href = "@Url.Action("EnterOTP", "Home")";
+                            }
+                            else {
+                                $('#btnGetOtp').prop('disabled', false); 
+                                toastr.options.positionClass = 'toast-botton-right';
+                                toastr.error(response.message);
+                                window.location.href = "@Url.Action("PhoneNumbers", "Home")";
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
+
+

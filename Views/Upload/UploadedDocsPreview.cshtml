@@ -1,0 +1,291 @@
+﻿@model VIRDocumentsUploads
+
+@{
+    ViewData["Title"] = "Documents Preview";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    .table td:first-child {
+        width: 40%;
+    }
+
+    .doc-name {
+        width: 60%;
+        position: relative;
+    }
+
+    .success-icon {
+        color: green;
+        font-size: 1.2rem;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .failure-icon {
+        color: red;
+        font-size: 1.2rem;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .checkbox-container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .checkbox-icon {
+        margin-right: 10px;
+    }
+
+</style>
+
+<div class="mt-4" style="margin-right: 10px;">
+    <div class="row">
+        <h4 class="text-center">
+            <b>PREVIEW</b>
+        </h4>
+    </div>
+
+    <div class="row justify-content-center mt-2">
+        <div class="col-12">
+            <table class="table shadow table-bordered table-hover table-striped">
+                <tbody>
+                    <tr>
+                        <td>Left (90°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_Left90))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_Left90 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadLeftSide90" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Right (90°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_Right90))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_Right90 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadRightSide90" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Front (90°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_Front90))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_Front90 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadFront90" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Rear (90°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_Rear90))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_Rear90 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadRear90" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Front Left (45°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_FrontLeft45))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_FrontLeft45 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadFrontLeft45" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Front Right (45°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_FrontRight45))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_FrontRight45 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadFrontRight45" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Rear Left (45°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_RearLeft45))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_RearLeft45 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadRearLeft45" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Rear Right (45°) <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_RearRight45))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_RearRight45 <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadRearRight45" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Open Bonnet <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_OpenBonnet))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_OpenBonnet <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadOpenBonnet" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Open Dickey <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_OpenDickey))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_OpenDickey <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadOpenDickey" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Under Body From Front Side <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_UnderBodyFromFrontSide))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_UnderBodyFromFrontSide <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadUnderBodyFromFrontSide" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Chassis No. <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_ChassisNo))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_ChassisNo <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadChassisNumberEmbossed" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>RC Copy Front <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_RCCopyFront))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_RCCopyFront <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadRegCertiCopyFront" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>RC Copy Back <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_RCCopyBack))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_RCCopyBack <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadRegCertiCopyBack" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>ODO Meter Reading <span class="text-danger">*</span></td>
+                        @if (!string.IsNullOrEmpty(Model.ImgUrl_OdoMeterReading))
+                        {
+                            <td class="doc-name">@Model.ImgUrl_OdoMeterReading <i class="bi bi-check-circle-fill success-icon"></i> </td>
+                        }
+                        else
+                        {
+                            <td class="doc-name">Image not uploaded. <a asp-action="UploadOdoMeterReading" asp-controller="Upload"><b>Click here</b> </a> to upload <i class="fas fa-times-circle failure-icon"></i> </td>
+                        }
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="checkbox-container">
+        <input id="ck-agree" type="checkbox" class="checkbox-icon" style="margin-left:15px;margin-top:5px"> <span class="text-danger">*</span> 
+        <span>I hereby confirm and declare that above mentioned identification details of my vehicle No. provided as well as that of damage to the vehicle as noted by the inspecting official are correct. Nothing has been hidden/undisclosed. I further confirm & declare that the Motor vehicle proposed for insurance after a break in cover has not met with any accident giving rise to any claim by a Third Party for injury or death caused to any person or damages to any property/Insured vehicle during the period following the expiry of a previous insurance, till the moment it is proposed for insurance. I also agree that damages mentioned above shall be excluded in the event of any claim being lodged.</span>
+    </div>
+</div>
+<div class="row mt-3">
+    <button id="btn-preview-submit" class="btn btn-primary col-3 mx-auto h-100 shadow-sm" style="background-color: #C02942;border:none;"><b>SUBMIT</b></button>
+</div>
+
+@section Scripts{
+    <script>
+        function getLocationAndSubmit() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    function (position) {
+                        const latitude = position.coords.latitude;
+                        const longitude = position.coords.longitude;
+
+                        sendRequest(latitude, longitude);
+                    },
+                    function (error) {
+                        sendRequest(null, null);
+                    }
+                );
+            } else {
+                sendRequest(null, null);
+            }
+        }
+
+        function sendRequest(latitude, longitude) {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("UploadSuccess", "Upload")',
+                data: { latitude: latitude, longitude: longitude },
+                dataType: 'json',
+                success: function (response) {
+                    if (response.success === true) {
+                        window.location.href = '@Url.Action("Index", "Home")';
+                        toastr.options.positionClass = 'toast-bottom-right';
+                        toastr.success('Vehicle inspection data have been submitted successfully..');
+                    } else {
+                        $('#btn-preview-submit').prop('disabled', false);
+                        toastr.options.positionClass = 'toast-bottom-right';
+                        toastr.error(response.message);
+                    }
+                }
+            });
+        }
+
+        $('#btn-preview-submit').click(function () {
+            if (!$('#ck-agree').is(':checked')) {
+                toastr.options.positionClass = 'toast-bottom-right';
+                toastr.warning('Please agree to the terms and conditions before submitting');
+            } else {
+                $('#btn-preview-submit').prop('disabled', true);
+                getLocationAndSubmit();
+            }
+        });
+    </script>
+}
+

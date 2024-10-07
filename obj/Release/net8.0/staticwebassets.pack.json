@@ -1,0 +1,333 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\VIR_WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VIR_WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\Camera-img-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\Camera-img-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\chassis_no.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\chassis_no.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\front_90.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\front_90.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\front_left_45.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\front_left_45.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\front_right_45.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\front_right_45.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\left_90.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\left_90.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\odo_meter_reading.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\odo_meter_reading.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\open_bonnet.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\open_bonnet.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\open_dickey.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\open_dickey.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\rear_90.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\rear_90.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\rear_left_45.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\rear_left_45.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\rear_right_45.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\rear_right_45.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\reg_cert_copy_back.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\reg_cert_copy_back.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\reg_cert_copy_front.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\reg_cert_copy_front.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\right_90.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\right_90.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\images\\car-pos-sample\\under_body_from_front_side.png",
+      "PackagePath": "staticwebassets\\images\\car-pos-sample\\under_body_from_front_side.png"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\js\\Upload.js",
+      "PackagePath": "staticwebassets\\js\\Upload.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\VIREndoresement\\IVRPROJECT\\VIR_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.VIR_WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.VIR_WebApp.props",
+      "PackagePath": "build\\VIR_WebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VIR_WebApp.props",
+      "PackagePath": "buildMultiTargeting\\VIR_WebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.VIR_WebApp.props",
+      "PackagePath": "buildTransitive\\VIR_WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,145 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@{
+    string isTrue = "false";
+    if (!string.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString("HasVisitedDocsPreview")))
+    {
+        isTrue = HttpContextAccessor.HttpContext.Session.GetString("HasVisitedDocsPreview");
+    }
+}
+
+<style>
+    .UploadContainer {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        overflow: hidden;
+    }
+
+        .UploadContainer div {
+            margin-bottom: 10px;
+        }
+
+        .UploadContainer h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .UploadContainer h5 {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+    .leftBox {
+        float: left;
+        width: 320px;
+        height: 250px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #2f5597;
+    }
+
+    .rightBox {
+        float: right;
+        width: 320px;
+        height: 250px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #2f5597;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .button-container {
+        margin-top: 12px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .camera-preview {
+        width: 100% !important;
+        height: 100%;
+    }
+
+    .leftBox img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .rightBox img:hover {
+        cursor: pointer;
+    }
+
+    .wrong-cross {
+        color: red;
+    }
+
+</style>
+
+<div style="margin-top:10px;" class="row mt-4 text-center">
+    <h5>
+        <b>Upload images of your vehicle as per the requirement</b>
+    </h5>
+</div>
+
+
+<div class="UploadContainer shadow mt-2">
+
+    <div class="row" style="display: flex; align-items: center; justify-content: center; text-align:center;">
+        <h1 id="image-position" style="color: #fefefe; background-color: #2f5597; padding:10px;">@ViewData["Position"]</h1>
+    </div>
+
+    <div class="row mb-0">
+        <h5 style="color:black;">@ViewData["CaptureInfo"]</h5>
+    </div>
+
+    <div class="row justify-content-center mt-0">
+        <div class="leftBox">
+            <img src="~/images/car-pos-sample/@ViewData["CarSampleImg"]" id="camera-icon" style="width:100%;height:100%;" />
+        </div>
+
+        <div class="rightBox">
+            <input type="file" accept="image/*" capture="camera" id="capture-button" style="display: none;">
+            <label for="capture-button">
+                <img src="~/images/camera-img-removebg-preview.png" id="camera-icon" />
+            </label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <div class="camera-on">
+                <button id="clear-button" class="btn btn-primary shadow" style="width:35px;background-color: #2f5597; border-color:transparent;"><span class="wrong-cross">&#10006;</span></button>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="button-container d-flex justify-content-end">
+                <button id="btn-back" class="btn btn-primary mx-1 shadow" style="background-color: #2f5597; border-color:transparent;">Back</button>
+                <button id="upload-capture" class="btn btn-primary mx-1 shadow" style="background-color: #2f5597; border-color:transparent;">Upload</button>
+                <button id="btn-next" class="btn btn-primary mx-1 shadow" style="background-color: #2f5597; border-color:transparent;" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (isTrue == "true")
+{
+    <br />
+    <div class="d-flex justify-content-center align-items-center flex-wrap mt-4">
+        <h5 class="text-center">
+            <a class="shadow-sm" asp-action="UploadedDocsPreview" asp-controller="Upload"><b>Click here</b></a> <b>to see Documents upload Preview</b>
+        </h5>
+    </div>
+}

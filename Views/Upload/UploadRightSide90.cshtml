@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Upload Docs";
+}
+
+<partial name="_UploadPartial" />
+
+@section Scripts{
+    <script src="~/js/Upload.js"></script>
+    <script>
+
+        $('#btn-next').click(function () {
+            window.location.href = "@Url.Action("UploadFront90", "Upload")";
+        });
+
+        $('#btn-back').click(function () {
+            window.location.href = "@Url.Action("UploadLeftSide90", "Upload")";
+        });
+
+    </script>
+}
+

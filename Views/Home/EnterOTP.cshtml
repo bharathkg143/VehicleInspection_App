@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "EnterOTP";
+}
+
+<style>
+
+    .container {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+        .container h2 {
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .btnNext {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .btnNext {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btnNext:hover {
+            background-color: #0056b3;
+        }
+
+    @@media (min-width: 768px) {
+        .container {
+            width: 70%;
+        }
+    }
+
+</style>
+<div class="container mt-4">
+    <div class="row">
+        <h4>
+            <b>Enter One Time Password for @ViewData["PhoneNumber"]</b>
+        </h4>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <input type="text" id="inpOtp" name="input1" class="form-control shadow-sm" style="width:250px;border:solid black 2px" placeholder="Enter OTP" />
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="d-flex justify-content-between">
+            <a id="btnBack" asp-action="PhoneNumbers" asp-controller="Home" class="btn btn-secondary m-2 shadow-sm" style="width:250px; height:40px;"><b>Back</b></a>
+            <button id="btnSubmit" class="btn btn-primary m-2 shadow-sm" style="width:250px; height:40px;"><b>Submit</b></button>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        $('#btnSubmit').click(function () {
+            var enteredOtp = $('#inpOtp').val();
+            if (enteredOtp == "" || enteredOtp == null) {
+                toastr.options.positionClass = 'toast-bottom-right';
+                toastr.warning('Please enter the otp send to your registered mobile number..!');
+            }
+            else {
+                $.ajax({
+                    type:'POST',
+                    url: '@Url.Action("ValidateOTP", "Home")',
+                    data: { otp : enteredOtp},
+                    dataType:'json',
+                    success:function(response){
+                        if (response.success == true) {
+                            window.location.href = "@Url.Action("VehicleInspection", "Home")";
+                        }
+                        else {
+                            toastr.options.positionClass = 'toast-bottom-right';
+                            toastr.error(response.message);
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+}
+
